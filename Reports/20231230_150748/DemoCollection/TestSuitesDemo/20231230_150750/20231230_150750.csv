@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuitesDemo,Chrome 120.0.0.0,,,2023-12-30 15:08:05,2023-12-30 15:08:40,34.307s,PASSED
+,,,,,,,
+Test Cases/Demo/ScriptDemo,Chrome 120.0.0.0,,,2023-12-30 15:08:07,2023-12-30 15:08:40,32.484s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-30 15:08:09,2023-12-30 15:08:18,9.425s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Chrome 120.0.0.0,,,2023-12-30 15:08:18,2023-12-30 15:08:28,9.473s,PASSED
+"x_username = ""//input[@name='username']""",Chrome 120.0.0.0,,,2023-12-30 15:08:28,2023-12-30 15:08:28,0.010s,PASSED
+"setText(findTestObject(""Object Repository/DemoObject - Orange Web/input_Username""), ""Admin"")",Chrome 120.0.0.0,,,2023-12-30 15:08:28,2023-12-30 15:08:31,2.998s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/DemoObject - Orange Web/input_Password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 120.0.0.0,,,2023-12-30 15:08:31,2023-12-30 15:08:32,1.194s,PASSED
+"click(findTestObject(""Object Repository/DemoObject - Orange Web/button""))",Chrome 120.0.0.0,,,2023-12-30 15:08:32,2023-12-30 15:08:33,0.727s,PASSED
+"verifyTextPresent(""Paul Collings"", false)",Chrome 120.0.0.0,,,2023-12-30 15:08:33,2023-12-30 15:08:38,5.661s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-30 15:08:38,2023-12-30 15:08:40,1.339s,PASSED

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuitesDemo" time="46.092" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuitesDemo" tests="1" failures="0" errors="0" time="46.092" skipped="0" timestamp="2023-12-30 15:08:05" hostname="abdulraffi - 192.168.100.124" id="Test Suites/DemoCollection/TestSuitesDemo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/abdulraffi/Documents/PSDS Automation/Belajar/Katalon/Reports/20231230_150748/DemoCollection/TestSuitesDemo/20231230_150753"/>
+         <property name="logFiles" value="/Users/abdulraffi/Documents/PSDS Automation/Belajar/Katalon/Reports/20231230_150748/DemoCollection/TestSuitesDemo/20231230_150753/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="abdulraffi - 192.168.100.124"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Firefox 107.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="02b01bbc-4dca-4e5c-a6b3-3799f0fb1f88"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Demo/ScriptDemo" time="44.242" classname="Test Cases/Demo/ScriptDemo" status="PASSED">
+         <system-out><![CDATA[2023-12-30 15:08:07 - [TEST_CASE][PASSED] - Test Cases/Demo/ScriptDemo: Test Cases/Demo/ScriptDemo
+
+2023-12-30 15:08:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-12-30 15:08:10 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-12-30 15:08:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-30 15:08:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-12-30 15:08:36 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/"): Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2023-12-30 15:08:43 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2023-12-30 15:08:43 - [TEST_STEP][PASSED] - x_username = "//input[@name='username']": null
+
+2023-12-30 15:08:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DemoObject - Orange Web/input_Username"), "Admin"): Text 'Admin' is set on object 'Object Repository/DemoObject - Orange Web/input_Username'
+
+2023-12-30 15:08:45 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/DemoObject - Orange Web/input_Username'
+
+2023-12-30 15:08:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/DemoObject - Orange Web/input_Password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/DemoObject - Orange Web/input_Password'
+
+2023-12-30 15:08:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/DemoObject - Orange Web/input_Password'
+
+2023-12-30 15:08:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoObject - Orange Web/button")): Object: 'Object Repository/DemoObject - Orange Web/button' is clicked on
+
+2023-12-30 15:08:48 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoObject - Orange Web/button' is clicked on
+
+2023-12-30 15:08:48 - [TEST_STEP][PASSED] - verifyTextPresent("Paul Collings", false): Text 'Paul Collings' is present on page 
+
+2023-12-30 15:08:50 - [MESSAGE][PASSED] - Text 'Paul Collings' is present on page 
+
+2023-12-30 15:08:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-12-30 15:08:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-12-30 15:08:05 - [TEST_SUITE][PASSED] - TestSuitesDemo: Test Cases/Demo/ScriptDemo]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
